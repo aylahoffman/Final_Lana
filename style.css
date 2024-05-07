@@ -1,3 +1,4 @@
+
 html, body {
   margin: 0;
   padding: 0;
@@ -10,4 +11,17 @@ canvas {
   display: block;
   margin: auto;
   margin-top: 10%;
+}
+
+footer {
+  text-align: right;
+  width: 300px;
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+}
+
+
+#orange-flower-hi img:hover{
+  filter: opacity(50%);
 }
