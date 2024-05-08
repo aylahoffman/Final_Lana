@@ -2,16 +2,16 @@ let img1
 let img2
 let fade = 0;
 let scenenum = 0;
-var poetry = ["You see, I'm a real poet.", "Past The Cypress Through The Bushes"];
+
 
 var index = 0;
 
 function preload(){
-  img1 = loadImage("flowers.jpg");
+  img1 = loadImage("thecover.png");
   img2 = loadImage("lemons.png");
 }
 function setup() {
-  createCanvas(950,750);
+  createCanvas(1020,780);
     noStroke();
     noCursor();
 }
@@ -53,20 +53,13 @@ background('220');
     imageMode(CORNER); 
   image(img1, 0, 0); 
   
-    textAlign(CENTER, CENTER)
-  textSize(35);
- textFont(`Courier`);
-  fill('white');
-  text(poetry[index], width/2.4, height/2);
+
   
     push();
   fill(255);
   noStroke();
   
-   index = index +1;
-  if(index == poetry.length){
-    index = 0;
-}
+
 
 }
 
@@ -76,4 +69,3 @@ background('220');
 //     index = 0;
 // }
 // }
-

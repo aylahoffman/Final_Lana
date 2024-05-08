@@ -7,7 +7,7 @@ img1 = loadImage("girls.jpg");
 }
 
 function setup() {
-  createCanvas(950,750);
+  createCanvas(925,740);
   noStroke();
   noCursor();
 }
@@ -20,6 +20,7 @@ function draw() {
        text(p1,50,20)
    textSize(30);
   textFont(`Courier`);
+  fill('#FFC107');
   textAlign(LEFT,TOP);
   
       ellipse(mouseX, mouseY, 33, 33);

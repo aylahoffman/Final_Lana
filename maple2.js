@@ -1,8 +1,8 @@
 var img1; 
 
 let string = `
-I saw you in the mirror 
-you were wearing your hair differently
+I saw you in the mirror. 
+You were wearing your hair differently,
 carrying the air differently.
 `;
 
@@ -33,7 +33,7 @@ function draw() {
   push();
   textSize(30);
   textFont(`Courier`);
-   fill('white');
+   fill('#FFC107');
   textAlign(CENTER, CENTER);
   text(currentString, pageMargin + 10, pageMargin + 10, width - pageMargin*2, height - pageMargin);
   pop();

@@ -18,7 +18,7 @@ img1 = loadImage("ocean.jpg");
 }
 
 function setup() {  
-  createCanvas(1050, 800);
+  createCanvas(1016, 770);
     noStroke();
     noCursor();
 }
@@ -38,7 +38,7 @@ function draw() {
   push();
   textSize(30);
   textFont(`Courier`);
-   fill('white');
+   fill('#FFF4D2');
   textAlign(CENTER, CENTER);
   text(currentString, pageMargin + 10, pageMargin + 10, width - pageMargin*2, height - pageMargin);
   pop();

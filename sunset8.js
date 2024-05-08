@@ -17,7 +17,7 @@ img1 = loadImage("sunset.png");
 }
 
 function setup() {
-  createCanvas(1050, 800);
+  createCanvas(1000, 770);
       noStroke();
     noCursor();
 }
@@ -37,7 +37,7 @@ function draw() {
   push();
   textSize(30);
   textFont(`Courier`);
-  fill('white');
+  fill('#FFC107');
   textAlign(CENTER, CENTER);
   text(currentString, pageMargin + 10, pageMargin + 10, width - pageMargin*2, height - pageMargin);
   pop();
@@ -45,5 +45,6 @@ function draw() {
   currentCharacter += 0.3;
   
     ellipse(mouseX, mouseY, 33, 33);
+   fill('#FFC107')
 
 }

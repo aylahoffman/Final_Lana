@@ -1,13 +1,13 @@
 var img1; 
 let font;
-let str = "Long beach, aimless";
+let str = "Long beach, aimless.";
 
 function preload() {
 img1 = loadImage("bridge.jpg"); 
 }
 
 function setup() {
-  createCanvas(1000, 750);
+  createCanvas(940, 695);
   noCursor();
 }
 
@@ -18,7 +18,7 @@ function draw() {
   image(img1, 0, 0);
   
    textFont('Courier');
-   fill('#00BCD4');
+   fill('#FFC107');
   textSize(40);
   // text("Long beach, aimless", mouseX, mouseY);
   //let t = str.substr(random(str, length), 1);

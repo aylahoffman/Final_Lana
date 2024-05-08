@@ -9,22 +9,27 @@ img1 = loadImage("apple.jpg");
 }
 
 function setup() {
-  createCanvas(1000,800);
+  createCanvas(980,700);
+  noStroke();
+  noCursor();
 }
 
 function draw() {
   background(220);
     imageMode(CORNER); 
   image(img1, 0, 0); 
+          ellipse(mouseX, mouseY, 33, 33);
    textSize(25);
-  fill('rgb(0,0,0)');
+  fill('#FFC107');
   textFont(`Courier`);
-  text(p[index], width/2.4, height/7);
+  text(p[index], width/4, height/7);
 }
   
   function mousePressed (){
   index = index +1;
   if(index == text.length){
     index = 0;
+    
   }
+
   }
