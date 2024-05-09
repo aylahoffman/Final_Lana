@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: rgb(255, 223, 181);
 }
 canvas {
   display: block;
@@ -17,8 +17,8 @@ footer {
   text-align: right;
   width: 500px;
   position: fixed;
-  bottom: 50px;
-  right: 25px;
+  bottom: 10px;
+  right: 270px;
 }
 
 

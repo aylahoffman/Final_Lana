@@ -41,4 +41,5 @@ function draw() {
   currentCharacter += 0.3;
   
     ellipse(mouseX, mouseY, 33, 33);
+    fill('#FFC107')
 }

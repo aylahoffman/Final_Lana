@@ -29,6 +29,7 @@ function draw() {
   index = index +1;
   if(index == text.length){
     index = 0;
+    fill('#FFC107');
     
   }
 
